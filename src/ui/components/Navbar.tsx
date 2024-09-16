@@ -209,7 +209,7 @@ const MobileLogo = () => (
         <AccessibleIcon label="Radix Homepage">
           <Logo /> 
         </AccessibleIcon>
-        <Heading size="3" weight="medium">ACME</Heading>
+        <Heading size="3" weight="bold">ACME</Heading>
       </BoxLink>
     </NextLink>
   </Flex>
