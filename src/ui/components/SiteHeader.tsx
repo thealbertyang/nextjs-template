@@ -6,7 +6,7 @@ export const SiteHeader = (props: NavbarProps) => {
   const pathname = usePathname();
 
   return (
-    <Navbar gitHubLink="https://github.com/radix-ui/themes" {...props}>
+    <Navbar gitHubLink="https://github.com/thealbertyang/nextjs-template" {...props}>
       <Link
         size="2"
         color="gray"

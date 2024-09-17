@@ -102,21 +102,21 @@ export const Navbar = ({ children, gitHubLink, ghost }: NavbarProps) => {
             <div className={styles.HeaderProductLinksContainer}>
               <HeaderProductLink
                 href="/"
-                active={pathname === '/' || pathname.startsWith('/themes')}
+                active={pathname === '/' || pathname.startsWith('/home')}
               >
-                Themes
+                Home
               </HeaderProductLink>
               <HeaderProductLink
-                href="/primitives"
-                active={pathname.startsWith('/primitives')}
+                href="/finances"
+                active={pathname.startsWith('/finances')}
               >
-                Primitives
+                Finances
               </HeaderProductLink>
-              <HeaderProductLink href="/icons" active={pathname.startsWith('/icons')}>
-                Icons
+              <HeaderProductLink href="/forecast" active={pathname.startsWith('/forecast')}>
+                Forecast
               </HeaderProductLink>
-              <HeaderProductLink href="/colors" active={pathname.startsWith('/colors')}>
-                Colors
+              <HeaderProductLink href="/markets" active={pathname.startsWith('/markets')}>
+                Markets
               </HeaderProductLink>
             </div>
 

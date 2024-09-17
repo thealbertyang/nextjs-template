@@ -18,12 +18,11 @@ export default function Home() {
               <Box className="bg-gradient-to-tr bg-clip-text text-transparent 
                 from-[#000000] from-70% via-[#00000066] to-[#00000066]
                 dark:from-[#FFFFFF] dark:from-70% dark:via-[#FFFFFF66] dark:to-[#FFFFFF66] pb-1">
-                Easiest way to <br /> power global teams.
+                Easiest way to <br /> grow your net worth.
               </Box>
             </Heading>
             <Text as="p" size="4" align="center" color="gray">
-              Acme makes running global teams simple. HR, Payroll, International Employment,
-              management and more.
+              Acme makes managing and growing your money simple.
             </Text>
             <Flex direction={{ initial: 'column', sm: 'row' }} gap="4" align="center">
               <Button size="3" radius="full">Get Started</Button>
