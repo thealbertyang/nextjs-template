@@ -1,7 +1,7 @@
 "use client";
 
 import { ArrowRightIcon } from '@radix-ui/react-icons'
-import { Flex, Section, Button, Text, Box, Heading } from '@radix-ui/themes'
+import { Flex, Section, Button, Text, Box, Heading, Link } from '@radix-ui/themes'
 import { SiteHeader } from "@/ui/components/SiteHeader";
 
 export default function Home() {
@@ -25,7 +25,11 @@ export default function Home() {
               Acme makes managing and growing your money simple.
             </Text>
             <Flex direction={{ initial: 'column', sm: 'row' }} gap="4" align="center">
-              <Button size="3" radius="full">Get Started</Button>
+              
+              <Button asChild size="3" radius="full">
+                <Link href="/app">Get Started</Link>
+                </Button>
+              
               <Button size="3" variant="outline" radius="full">
                 See our plans <ArrowRightIcon />
               </Button>
